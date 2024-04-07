@@ -2,4 +2,80 @@
 
 
 /* Versão Mobile First */
+/* tipical device breack points
+telas pequenas ate 600px
+celula 600px-768
+tablet 768px-992px
+descktop 992px-1200px
+grandes telas acima de 1200px */
+
+@media print{
+
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: url(../img/back-tablet.jpg);
+        
+    }
+  
+    img#celular{
+        display: none;
+    }
+    img#tablet{
+        display: block;
+    }
+    img#impresora{
+        display: none;
+    }
+    img#pc{
+        display: none;
+    }
+    img#tv{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:992px) and (max-width:(1200px)) {
+    body{
+        background-image: url(../img/icon-pc.png);
+    }
+    img#celular{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#impresora{
+        display: none;
+    }
+    img#pc{
+        display:block;
+    }
+    img#tv{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    body{
+        background-image: url(../img/back-tv.jpg);
+    }
+    img#celular{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#impresora{
+        display: none;
+    }
+    img#pc{
+        display: none;
+    }
+    img#tv{
+        display: block;
+    }
+    
+}
+
 
