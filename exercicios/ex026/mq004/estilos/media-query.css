@@ -37,13 +37,13 @@ img{
     display: block;
     margin: auto;
 }
-img#celular{
+img#cel{
     display: block;
 }
-img#tablet{
+img#tab{
     display: none;
 }
-img#impresora{
+img#impr{
     display: none;
 }
 img#pc{

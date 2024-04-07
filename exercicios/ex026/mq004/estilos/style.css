@@ -18,61 +18,61 @@ grandes telas acima de 1200px */
         
     }
   
-    img#celular{
+    img#cel {
         display: none;
     }
-    img#tablet{
+    img#tab {
         display: block;
     }
-    img#impresora{
+    img#impr {
         display: none;
     }
-    img#pc{
+    img#pc {
         display: none;
     }
-    img#tv{
+    img#tv {
         display: none;
     }
     
 }
 @media screen and (min-width:992px) and (max-width:(1200px)) {
-    body{
+    body {
         background-image: url(../img/icon-pc.png);
     }
-    img#celular{
+    img#cel {
         display: none;
     }
-    img#tablet{
+    img#tab {
         display: none;
     }
-    img#impresora{
+    img#impr {
         display: none;
     }
-    img#pc{
+    img#pc {
         display:block;
     }
-    img#tv{
+    img#tv {
         display: none;
     }
     
 }
 @media screen and (min-width:1200px) {
-    body{
+    body {
         background-image: url(../img/back-tv.jpg);
     }
-    img#celular{
+    img#celular {
         display: none;
     }
-    img#tablet{
+    img#tablet {
         display: none;
     }
-    img#impresora{
+    img#impresora {
         display: none;
     }
-    img#pc{
+    img#pc {
         display: none;
     }
-    img#tv{
+    img#tv {
         display: block;
     }
     
