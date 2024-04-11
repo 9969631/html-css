@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@media print {
+    header{
+        background-color: white;
+        color: black;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white;
+    }
+    menu{
+        display: none;
+    }
+    span#burguer{
+        display: none;
+    }
+
+}
+@media screen and (min-width:768px) {
+    span#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+    main{
+        width: 769px;
+    }
+}
